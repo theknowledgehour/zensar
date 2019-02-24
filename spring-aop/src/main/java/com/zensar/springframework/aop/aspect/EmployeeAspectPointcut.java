@@ -26,7 +26,7 @@ public class EmployeeAspectPointcut {
 	}
 	
 	//Pointcut to execute on all the methods of classes in a package
-	@Pointcut("within(com.javadevsguide.springframework.aop.service.*)")
+	@Pointcut("within(com.zensar.springframework.aop.service.*)")
 	public void allMethodsPointcut(){}
 	
 }
